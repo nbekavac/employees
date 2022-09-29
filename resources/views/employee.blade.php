@@ -44,6 +44,13 @@
                                     Contact Employer</a
                                 >
 
+                                <a
+                                href="/employees/public/evidencija"
+                                class="block bg-laravel text-white mt-6 py-2 rounded-xl hover:opacity-80"
+                                ><i></i>
+                                Dodatna evidencija</a
+                            >
+
                             </div>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ class UserFactory extends Factory
             'firstname' => fake()->firstName(),
             'lastname' => fake()->lastName(),
             'picture' => 'picture',
-            'gender' => fake()->randomElement(['Male', 'Female' , 'Marketing' , 'HR']),
+            'gender' => fake()->randomElement(['Male', 'Female']),
             'dateofbirth' => fake()->dateTimeBetween($startDate= '-60 years', $endDate='-18 years'),
             'firstday' => fake()->dateTimeBetween($startDate= '-10 years', $endDate='-1 days'), 
             'contracttype' => fake()->randomElement(['Odredeno', 'Neodredeno']),
